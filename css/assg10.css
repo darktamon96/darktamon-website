@@ -1,0 +1,89 @@
+/* type selectors */
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+body {
+    font-family: Georgia, serif;
+    margin: 0 auto;
+    padding:0;
+    background-color: #000000;
+}
+
+h1 {
+	font-family: Geneva, sans-serif;
+    font-size: 32px;
+    color:rgba(0, 52, 221, 0.7);
+    padding-left: 2em;
+}
+h4{
+    line-height: 1px;
+    font-family: Geneva, sans-serif;
+    color: #e20303;
+    font-weight: 700;
+    padding-left: 2em;
+    padding-bottom: 10px;
+}
+section{
+    margin: 20px auto 10px auto;
+    width:600px;
+    padding:10px;
+    background-color: #ffffff;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+}
+
+label {
+	float: left;
+    width: 11em;
+    text-align: right;
+}
+input {
+    width: 12em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+span {
+	color: red;
+}
+
+input#join {
+    margin-top: 1em;
+    padding: 5px 15px;
+    background-color:rgba(15, 126, 1, 0.7);
+    color: rgb(255,255,255);
+    font-size: 16px;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width:130px;
+    }
+input#reset {
+    padding: 5px 15px;
+    background-color: rgba(15, 126, 1, 0.7);
+    color: rgb(255,255,255);
+    font-size: 16px;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width:130px; }
+
+input#join:hover,input#reset:hover
+        {
+            background-color: rgb(0,0,0);
+        }
+
+label.error {
+    float: none;
+    color: #e20303;
+    font-size: 87.5%;
+    margin-left: .5em;
+    font-family: Geneva, sans-serif;
+
+}
+dd {
+    color: rgb(31, 14, 185);
+    margin: .5em 0 .5em 3em;
+}
