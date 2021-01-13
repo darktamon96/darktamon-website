@@ -44,6 +44,7 @@ section{
 	width: 100%;
 	background-color: #e3e8ed;
 	padding-top: 1em;
+	padding-bottom: 1em;
 	font-family: 'Roboto Slab', serif;
 }
 
@@ -51,26 +52,22 @@ aside{
 	width: 100%;
 	background-color: #e3e8ed;
 	padding-top: 1em;
-	padding-bottom: 8em;
+	padding-bottom: 5em;
 	font-family: 'Roboto Slab', serif;
 }
 
 section h2{
 	font-size: 30px;
-	padding-top: 1em;
 	margin-bottom: 1em;
 	text-align: center;
 	font-weight: bold;
-	font-style: italic;
 	text-shadow: 1px 1px 10px green;
 }
 
 .col-sm-3 p a{
 	text-decoration: none;
-	color: #A30941;
+	color: #228B22;
 	font-size: 16px;
-	border: 2px solid #ba89a8;
-	border-radius: .5em;
 	padding: .25em;
 }
 
@@ -85,7 +82,7 @@ section h2{
 
 .col-sm-3 a:hover{
 	color: #256BBC;
-	border-color: #256BBC
+	border-color: #256BBC;
 }
 
 /*footer*/
