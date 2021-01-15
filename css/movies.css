@@ -1,0 +1,97 @@
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/*header*/
+header{
+	background-color: #2f2f2f;
+	min-height: 50px;
+	border-top: #228B22 3px solid;
+	border-bottom: #228B22 3px solid;
+}
+
+header h1{
+	padding-top: 2em;
+	padding-bottom: 1em;
+	text-align: center;
+	color: #ffffff;
+	font-weight: bold;
+	text-shadow: 1px 1px 10px green;
+}
+
+header #branding{
+	float: left;
+}
+
+header nav{
+	float: center;
+}
+
+/* Hide the carousel text when the screen is less than 768 pixels wide */
+@media (max-width: 768px){
+	header #branding{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	header h1{
+		padding-top: 0px;
+		padding-bottom: 1em;
+	}
+
+	header nav{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	iframe{
+		width: 100%;
+    	height: 100%;
+	}
+}
+
+/*section*/
+section{
+	width: 100%;
+	background-color: #545454;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	font-family: 'Roboto Slab', serif;
+}
+
+/*
+iframe {
+    position: fixed;
+    background: #000;
+    border: none;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    width: 100%;
+    height: 100%;
+}
+*/
+
+/*footer*/
+.footer{
+	background-color: #2f2f2f;
+	padding: 2em;
+	text-align: center;
+	font-size: 16px;
+	border-top: #228B22 3px solid;
+	font-family: 'Roboto Slab', serif;
+}
+
+.footer p{
+	color: #ffffff;
+}
+
+.footer p a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a.footer-link:hover {font-family:monospace;}
